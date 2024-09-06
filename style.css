@@ -1,0 +1,188 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:  #d9f0ff;
+    /* background-image: url('https://static.vecteezy.com/system/resources/previews/007/048/298/non_2x/blurred-abstract-green-background-and-flower-butterfly-vector.jpg'); */
+}
+.intro img{
+    width:300px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px lightslategray;
+}
+.intro{
+    width:94vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 5vw;
+}
+h1{
+    text-align: center;
+}
+.intro  p{
+    padding: 10px 10vw;
+}
+.navbar{
+    background-color: #83c9f4;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 1px 1px 10px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 1vw;
+    height: 70px;
+}
+.navbar ul {
+    padding-top: 10px;
+    padding-left: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 9vw;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #7a3d5f;
+}
+.navbar ul li a:hover{
+
+    color: #fff;
+}
+.skills {
+    padding: 20px;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+h2{
+    font-size: 2.3rem ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color:#83c9f4 ;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#41adf0;
+}
+
+.intro li {
+    list-style-type: none;
+    padding: 2px 10vw;
+}
+.skills{
+    padding: 10px 5vw;
+}
+
+@media screen and (max-width:930px){
+    .intro{
+        flex-direction:column;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.c{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 10px;
+    max-width: 1200px;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+.top img{
+    height: 220px;
+}
+.card{
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
+    background-color: #fff;
+}
+img{
+    border-radius: 15px;
+    width: 100%;
+}
+.text{
+    font-weight: 500;
+    font-size: 1.6rem;
+    position: relative;
+}
+.bottom{
+    padding: 10px;
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+.bottom span{
+    position: absolute;
+    background-color: #267e3e;
+    border-radius: 10px;
+    font-size: .9rem;
+    right: 0;
+    padding: 0px 5px;
+    color: white;
+}
+.time{
+    text-align: right;
+}
+.items{
+    font-size: 14px;
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight:lighter;
+    color: rgb(71, 68, 68);
+}
+.items a{
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: .5px .5px 15px rgb(215, 213, 213);
+    
+}
